@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+     <title>C'Mon</title>
+    <link rel="shortcut icon" href="http://flash.flowplayer.org/favicon.ico">
+    <script src="http://localhost/flowplayer/flowplayer/flowplayer-3.2.13.min.js"></script>
+    </head>
+<body>
+<div style="width:425px;height:300px;margin:0 auto;" id="player">
+</div>
+<script type="text/javascript">
+flowplayer("player","http://localhost/flowplayer/flowplayer-3.2.18.swf",{
+		clip : {
+		url : "http://localhost/myVideo.flv"
+		,autoPlay : false
+	},
+	onLoad:function(){
+		alert("hey");
+	}}
+  );
+</script>
+</body>
+</html>
